@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer .footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer .footer-links {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer .footer-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+    </style>
+</head>
+<body>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
